@@ -26,3 +26,5 @@ chmod 700 ./.venv/bin/activate
 pip install -r requirements.txt
 code .
 ```
+
+Once you have a set of libs that works, run `python -m pip freeze > requirements.txt` to update the libs to install.
