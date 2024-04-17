@@ -1,3 +1,6 @@
 .venv
 kaggle.json
 fruits*
+training_checkpoints
+cuda-keyring*
+image_at_epoch_*
