@@ -2,6 +2,8 @@
 
 Goal: Get Sam's Apple GAN example to work on an Nvidia GPU on windows.
 
+Performance: With Sam's initial settings (28x28 images, 100 noise), I was getting ~5s per epoch on CPU on the free Google Colab.  When I enabled TPU (with all the changes that needed), I got about ~1s per epoch.  With those same settings and CUDA on a 4080, I was getting about 0.35 seconds per epoch.  Increasing to 112x112 images w/ 1000 noise yielded 3-4s epochs.
+
 ## Prep WSL environment
 
 Tensorflow >= 2.11 is not supported on native Windows, only WSL.
